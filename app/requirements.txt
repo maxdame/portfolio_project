@@ -1,0 +1,18 @@
+# Python web framework for building and running the app.
+django==3.2.2
+
+# A Python WSGI HTTP server. Serves as an intermediary between the Django app and web servers
+# like Nginx, handling HTTP requests and routing them to the app.
+gunicorn==20.0.4 
+
+# A toolkit for building Web APIs in Django. Helps in creating API endpoints, data serialization, 
+# and provides functionalities like authentication, pagination, etc.
+djangorestframework==3.12.4 
+
+# Library for separating configuration parameters from code. This ensures security and flexibility 
+# when moving between different environments (e.g., development to production).
+python-decouple==3.4 
+
+# PostgreSQL adapter for Python in binary form. This lets Django apps interact directly 
+# with PostgreSQL databases.
+psycopg2-binary==2.9.6 
